@@ -30,6 +30,7 @@ from  "from model.residual_attention_network import ResidualAttentionModel_92 as
 "from model.residual_attention_network import ResidualAttentionModel_56 as ResidualAttentionModel"
 
 how to train?
+first, download the data from http://www.cs.toronto.edu/~kriz/cifar.html
 make sure the varible is_train = True
 then python train.py
 
