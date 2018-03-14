@@ -29,7 +29,7 @@ test_dataset = datasets.CIFAR10(root='./data/',
 
 # Data Loader (Input Pipeline)
 train_loader = torch.utils.data.DataLoader(dataset=train_dataset,
-                                           batch_size=1,
+                                           batch_size=35,
                                            shuffle=True, num_workers=8)
 test_loader = torch.utils.data.DataLoader(dataset=test_dataset,
                                           batch_size=20,
