@@ -41,15 +41,27 @@ is_train = False
 then python train.py
 
 # result
-I have test on ResidualAttentionModel_92 on cifar10 test set, the result is as following:
-Accuracy of the model on the test images: 86 %
-Accuracy of plane : 88 %
-Accuracy of   car : 93 %
-Accuracy of  bird : 79 %
-Accuracy of   cat : 74 %
-Accuracy of  deer : 85 %
-Accuracy of   dog : 79 %
-Accuracy of  frog : 89 %
-Accuracy of horse : 90 %
-Accuracy of  ship : 92 %
-Accuracy of truck : 91 %
+I have test on ResidualAttentionModel_92_32input on cifar10 test set, the result is as following:
+# 
+Accuracy of the model on the test images: 92.31 %
+#
+Accuracy of plane : 94 %
+
+Accuracy of   car : 96 %
+
+Accuracy of  bird : 88 %
+
+Accuracy of   cat : 85 %
+
+Accuracy of  deer : 93 %
+
+Accuracy of   dog : 86 %
+
+Accuracy of  frog : 94 %
+
+Accuracy of horse : 94 %
+
+Accuracy of  ship : 94 %
+
+Accuracy of truck : 94 %
+
