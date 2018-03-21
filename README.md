@@ -1,5 +1,8 @@
 # ResidualAttentionNetwork-pytorch
-A pytorch code about Residual Attention Network.  This code is based on two  projects from 
+A pytorch code about Residual Attention Network.  
+# 
+This code is based on two  projects from 
+#
 https://github.com/liudaizong/Residual-Attention-Network and 
 https://github.com/fwang91/residual-attention-network/blob/master/imagenet_model/Attention-92-deploy.prototxt
 The first project is the pytorch code, but i think some network detail is not good. So I modify it according to 
