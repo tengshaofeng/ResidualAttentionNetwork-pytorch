@@ -24,7 +24,9 @@ By Fei Wang, Mengqing Jiang, Chen Qian, Shuo Yang, Chen Li, Honggang Zhang, Xiao
 # how to train?
 first, download the data from http://www.cs.toronto.edu/~kriz/cifar.html
 make sure the varible 
-# is_train = True
+# 
+is_train = True
+#
 then python train.py
 
 you can train on ResidualAttentionModel_56 or ResidualAttentionModel_448input, only should modify the code in train.py
@@ -33,7 +35,9 @@ from  "from model.residual_attention_network import ResidualAttentionModel_92 as
 
 # how to test?
 make sure the varible 
-# is_train = False
+#
+is_train = False
+#
 then python train.py
 
 # result
