@@ -4,8 +4,11 @@ https://github.com/liudaizong/Residual-Attention-Network and
 https://github.com/fwang91/residual-attention-network/blob/master/imagenet_model/Attention-92-deploy.prototxt
 The first project is the pytorch code, but i think some network detail is not good. So I modify it according to 
 the architechure of the Attention-92-deploy.prototxt.
-And I also add the ResidualAttentionModel_92
-and ResidualAttentionModel_448input.
+And I also add the ResidualAttentionModel_92 for training imagenet,
+ResidualAttentionModel_448input for larger image input,
+and ResidualAttentionModel_92_32input for training cifar10.
+
+
 
 # paper referenced
 Residual Attention Network for Image Classification (CVPR-2017 Spotlight)
