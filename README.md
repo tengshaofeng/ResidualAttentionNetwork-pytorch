@@ -65,3 +65,6 @@ Accuracy of  ship : 94 %
 
 Accuracy of truck : 94 %
 
+#
+the paper only give the archietcture details of attention_92 for imagenet with 224 input but not for cifar10. So I write the net following my understanding. I have not struggled for optimizing the code, so maybe you can do better based my code.
+For example, you can add subtract the mean for preprocessing, you can avgpooling when feature map is 2*2 not 4*4 in my code, so many tricks.
