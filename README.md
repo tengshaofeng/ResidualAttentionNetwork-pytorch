@@ -43,27 +43,20 @@ then python train.py
 # result
 I have test on ResidualAttentionModel_92_32input on cifar10 test set, the result is as following:
 # 
-Accuracy of the model on the test images: 92.31 %
+Accuracy of the model on the test images: 0.9266
 #
-Accuracy of plane : 94 %
 
-Accuracy of   car : 96 %
-
-Accuracy of  bird : 88 %
-
-Accuracy of   cat : 85 %
-
-Accuracy of  deer : 93 %
-
-Accuracy of   dog : 86 %
-
+Accuracy of plane : 92 %
+Accuracy of   car : 97 %
+Accuracy of  bird : 90 %
+Accuracy of   cat : 83 %
+Accuracy of  deer : 94 %
+Accuracy of   dog : 88 %
 Accuracy of  frog : 94 %
-
-Accuracy of horse : 94 %
-
-Accuracy of  ship : 94 %
-
+Accuracy of horse : 95 %
+Accuracy of  ship : 95 %
 Accuracy of truck : 94 %
+
 
 #
 the paper only give the archietcture details of attention_92 for imagenet with 224 input but not for cifar10. So I build the net following my understanding. I have not struggled for optimizing the code, so maybe you can do better based my code.
