@@ -41,7 +41,7 @@ is_train = False
 then python train.py
 
 # result
-I have test on ResidualAttentionModel_92_32input on cifar10 test set, the result is as following:
+I have tested on ResidualAttentionModel_92_32input on cifar10 test set, the result is as following:
 # 
 Accuracy of the model on the test images: 0.9266
 #
@@ -60,4 +60,4 @@ Accuracy of truck : 94 %
 
 #
 the paper only give the archietcture details of attention_92 for imagenet with 224 input but not for cifar10. So I build the net following my understanding. I have not struggled for optimizing the code, so maybe you can do better based my code.
-For example, you can add subtract the mean for preprocessing, you can avgpooling when feature map is 2,2 not 4,4 in my code, so many tricks.
+For example, you can add subtracting the mean for preprocessing, you can do avgpooling when feature map is 2,2 not 4,4 in my code, so many tricks.
