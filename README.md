@@ -43,19 +43,21 @@ then python train.py
 # result
 I have tested on ResidualAttentionModel_92_32input on cifar10 test set, the result is as following:
 # 
-Accuracy of the model on the test images: 0.9266
+Accuracy of the model on the test images: 0.9354
 #
 
-Accuracy of plane : 92 %
+Accuracy of plane : 95 %
 Accuracy of   car : 97 %
 Accuracy of  bird : 90 %
-Accuracy of   cat : 83 %
+Accuracy of   cat : 85 %
 Accuracy of  deer : 94 %
 Accuracy of   dog : 88 %
 Accuracy of  frog : 94 %
-Accuracy of horse : 95 %
-Accuracy of  ship : 95 %
-Accuracy of truck : 94 %
+Accuracy of horse : 96 %
+Accuracy of  ship : 96 %
+Accuracy of truck : 95 %
+current best acc, 0.9354
+
 
 
 #
