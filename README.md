@@ -59,7 +59,7 @@ Accuracy of truck : 95 %
 current best acc, 0.9354
 
 #
-I have uploaded the trained model in this project, it is the model of the final epoch. it is not the best model. and accuracy is only 0.9332. I have not saved the best model when training.
+I have uploaded the trained model "last_model_92_sgd.pkl" in this project, it is the model of the final epoch. it is not the best model. and accuracy is only 0.9332. I have not saved the best model when training.
 
 #
 the paper only give the archietcture details of attention_92 for imagenet with 224 input but not for cifar10. So I build the net following my understanding. I have not struggled for optimizing the code, so maybe you can do better based my code.
