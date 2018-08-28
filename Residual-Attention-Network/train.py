@@ -12,7 +12,7 @@ import cv2
 import time
 # from model.residual_attention_network_pre import ResidualAttentionModel
 # based https://github.com/liudaizong/Residual-Attention-Network
-from model.residual_attention_network import ResidualAttentionModel_92_32input as ResidualAttentionModel
+from model.residual_attention_network import ResidualAttentionModel_92_32input_update as ResidualAttentionModel
 
 model_file = 'model_92_sgd.pkl'
 
@@ -75,7 +75,7 @@ test_dataset = datasets.CIFAR10(root='./data/',
 
 # Data Loader (Input Pipeline)
 train_loader = torch.utils.data.DataLoader(dataset=train_dataset,
-                                           batch_size=64,
+                                           batch_size=64, # 64
                                            shuffle=True, num_workers=8)
 test_loader = torch.utils.data.DataLoader(dataset=test_dataset,
                                           batch_size=20,
