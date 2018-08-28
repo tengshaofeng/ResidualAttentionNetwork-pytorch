@@ -12,7 +12,7 @@ the architechure of the Attention-92-deploy.prototxt.
 
 And I also add the ResidualAttentionModel_92 for training imagenet,
 ResidualAttentionModel_448input for larger image input,
-and ResidualAttentionModel_92_32input for training cifar10.
+and ResidualAttentionModel_92_32input_update for training cifar10.
 
 
 
@@ -41,7 +41,7 @@ is_train = False
 then python train.py
 
 # result
-I have tested on ResidualAttentionModel_92_32input on cifar10 test set, the result is as following:
+I have tested on ResidualAttentionModel_92_32input_update on cifar10 test set, the result is as following:
 # 
 Accuracy of the model on the test images: 0.954
 #
