@@ -39,15 +39,16 @@ make sure the varible
 #
 is_train = False
 #
-then python train.py
+CUDA_VISIBLE_DEVICES=0 python train.py
+CUDA_VISIBLE_DEVICES=0 python train_mixup.py(with mixup) 
 
 # result
-cifar-10: Acc-95.4(Top-1 err 4.6) with ResidualAttentionModel_92_32input_update(higher than paper top-1 err 4.99)
+1. cifar-10: Acc-95.4(Top-1 err 4.6) with ResidualAttentionModel_92_32input_update(higher than paper top-1 err 4.99)
 
-cifar-10: Acc-96.6(Top-1 err 3.4) with ResidualAttentionModel_92_32input_update(with mixup).
+2. cifar-10: Acc-96.6(Top-1 err 3.4) with ResidualAttentionModel_92_32input_update(with mixup).
 
-thanks to @PistonY, who give the advice of mixup.
-more details for mixup you can reference the project https://github.com/facebookresearch/mixup-cifar10
+Thanks to @PistonY, who give me the advice of mixup.
+More details for mixup you can reference the project https://github.com/facebookresearch/mixup-cifar10
 
 the paper only give the archietcture details of attention_92 for imagenet with 224 input but not for cifar10. So I build the net following my understanding. I have not struggled for optimizing the code, so maybe you can do better based my code.
 
