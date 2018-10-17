@@ -43,6 +43,7 @@ then python train.py
 
 # result
 cifar-10: Acc-95.4(Top-1 err 4.6) with ResidualAttentionModel_92_32input_update(higher than paper top-1 err 4.99)
+
 cifar-10: Acc-96.6(Top-1 err 3.4) with ResidualAttentionModel_92_32input_update(with mixup).
 
 thanks to @PistonY, who give the advice of mixup.
