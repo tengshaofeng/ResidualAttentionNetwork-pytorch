@@ -42,12 +42,11 @@ is_train = False
 then python train.py
 
 # result
-I have tested on ResidualAttentionModel_92_32input_update on cifar10 test set, the result is as following:
-# 
-Accuracy of the model on the test images: 0.954
-which is better than the result in paper of 0.9501.
+cifar-10: Acc-95.4(Top-1 err 4.6) with ResidualAttentionModel_92_32input_update(higher than paper top-1 err 4.99)
+cifar-10: Acc-96.6(Top-1 err 3.4) with ResidualAttentionModel_92_32input_update(with mixup).
 
-
+thanks to @PistonY, who give the advice of mixup.
+more details for mixup you can reference the project https://github.com/facebookresearch/mixup-cifar10
 
 the paper only give the archietcture details of attention_92 for imagenet with 224 input but not for cifar10. So I build the net following my understanding. I have not struggled for optimizing the code, so maybe you can do better based my code.
 
