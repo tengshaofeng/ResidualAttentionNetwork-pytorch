@@ -27,7 +27,8 @@ make sure the varible
 # 
 is_train = True
 #
-then python train.py
+then python train.py, 
+or python train_mixup.py(with mixup)
 
 you can train on ResidualAttentionModel_56 or ResidualAttentionModel_448input, only should modify the code in train.py
 from  "from model.residual_attention_network import ResidualAttentionModel_92 as ResidualAttentionModel" to
@@ -44,19 +45,10 @@ then python train.py
 I have tested on ResidualAttentionModel_92_32input_update on cifar10 test set, the result is as following:
 # 
 Accuracy of the model on the test images: 0.954
-#
-Accuracy of plane : 96 %
-Accuracy of   car : 97 %
-Accuracy of  bird : 93 %
-Accuracy of   cat : 90 %
-Accuracy of  deer : 95 %
-Accuracy of   dog : 92 %
-Accuracy of  frog : 97 %
-Accuracy of horse : 96 %
-Accuracy of  ship : 97 %
-Accuracy of truck : 97 %
-current best acc, 0.954
 which is better than the result in paper of 0.9501.
+
+
+
 the paper only give the archietcture details of attention_92 for imagenet with 224 input but not for cifar10. So I build the net following my understanding. I have not struggled for optimizing the code, so maybe you can do better based my code.
 
 # model file： accuracy of 0.954
