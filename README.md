@@ -27,8 +27,9 @@ make sure the varible
 # 
 is_train = True
 #
-then python train.py, 
-or python train_mixup.py(with mixup)
+CUDA_VISIBLE_DEVICES=0 python train.py
+
+CUDA_VISIBLE_DEVICES=0 python train_mixup.py(with mixup) 
 
 you can train on ResidualAttentionModel_56 or ResidualAttentionModel_448input, only should modify the code in train.py
 from  "from model.residual_attention_network import ResidualAttentionModel_92 as ResidualAttentionModel" to
@@ -40,6 +41,7 @@ make sure the varible
 is_train = False
 #
 CUDA_VISIBLE_DEVICES=0 python train.py
+
 CUDA_VISIBLE_DEVICES=0 python train_mixup.py(with mixup) 
 
 # result
