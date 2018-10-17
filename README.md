@@ -54,5 +54,5 @@ More details for mixup you can reference the project https://github.com/facebook
 
 the paper only give the archietcture details of attention_92 for imagenet with 224 input but not for cifar10. So I build the net following my understanding. I have not struggled for optimizing the code, so maybe you can do better based my code.
 
-# model file： accuracy of 0.954
-model_92_sgd.pkl is the trained model file
+# model file： 
+model_92_sgd.pkl is the trained model file, accuracy of 0.954
