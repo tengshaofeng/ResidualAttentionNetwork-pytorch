@@ -49,6 +49,8 @@ CUDA_VISIBLE_DEVICES=0 python train_mixup.py(with mixup)
 
 2. cifar-10: Acc-96.65(Top-1 err 3.35) with ResidualAttentionModel_92_32input_update(with mixup).
 
+3. cifar-10: Acc-96.84(Top-1 err 3.16) with ResidualAttentionModel_92_32input_update(with mixup, with simpler attention module).
+
 Thanks to @PistonY, who give me the advice of mixup.
 More details for mixup you can reference the project https://github.com/facebookresearch/mixup-cifar10
 
